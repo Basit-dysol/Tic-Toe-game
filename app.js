@@ -103,7 +103,9 @@ newgameBtn.addEventListener("click",()=>{
         box.innerText=""
 
     }    
+    msgContainer.classList.remove('hide3')
     enableBoxes();   
+    
 })
 
 
